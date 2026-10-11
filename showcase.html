@@ -3,78 +3,53 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Discover the Chant Pierre collections: solitaire designs shaped in gold, traced with diamonds, and composed as jewellery pairings.">
+  <meta name="description" content="Explore the Chant Pierre design collections: solitaire rings shaped in gold, traced with light, and composed as jewellery pairings.">
   <title>The Collections — Chant Pierre</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet">
   <style>
-    :root{--paper:#f8f6f1;--ink:#24231f;--muted:#77746d;--line:#dedbd3;--gold:#b69c6d;--serif:'Playfair Display',Georgia,serif;--sans:'DM Sans',Arial,sans-serif}
-    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:24px}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.7 var(--sans);overflow-x:hidden}a{color:inherit;text-decoration:none}img{display:block;width:100%;height:100%;object-fit:cover}.wrap{width:min(1220px,calc(100% - clamp(32px,8vw,112px)));margin-inline:auto}.eyebrow{color:var(--muted);font-size:10px;letter-spacing:.2em;text-transform:uppercase}h1,h2,h3{font-family:var(--serif);font-weight:400;line-height:1.12;margin-top:0}h1{font-size:clamp(46px,7vw,82px);letter-spacing:-.035em;margin:20px 0}h2{font-size:clamp(35px,4.8vw,58px)}h3{font-size:clamp(27px,3vw,36px);margin:0 0 4px}.topbar{min-height:clamp(68px,7vw,88px);display:flex;align-items:center;justify-content:space-between;gap:24px;border-bottom:1px solid var(--line)}.brand{font:22px var(--serif);letter-spacing:.16em;white-space:nowrap}.nav{display:flex;gap:clamp(16px,3vw,38px);font-size:11px;letter-spacing:.08em}.nav a{transition:color .2s}.nav a:hover{color:var(--gold)}.nav [aria-current="page"]{color:var(--gold)}.hero{text-align:center;padding:clamp(72px,10vw,130px) 16px clamp(58px,8vw,100px)}.hero h1{margin:18px auto 14px}.hero p{max-width:560px;color:var(--muted);margin:0 auto}.hero-rule{width:46px;height:1px;background:var(--gold);margin:30px auto 0}.collections{padding:0 0 clamp(78px,10vw,130px)}.collection-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(38px,6vw,76px) clamp(24px,5vw,64px)}.collection{min-width:0}.collection-image{overflow:hidden;background:#ede9e1;aspect-ratio:1.12/1}.collection-image img{transition:transform .65s ease}.collection:hover .collection-image img{transform:scale(1.025)}.collection-copy{padding:22px 2px 0}.collection-name{font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:8px}.collection h2{font-size:clamp(34px,4.1vw,48px);margin:0 0 3px}.collection-subtitle{font-family:var(--serif);font-size:clamp(17px,1.8vw,21px);color:#615e57;margin-bottom:13px}.collection-copy p{max-width:450px;margin:0;color:var(--muted);font-size:13px}.collection-link{display:inline-block;margin-top:17px;padding-bottom:4px;border-bottom:1px solid var(--gold);font-size:10px;letter-spacing:.11em;text-transform:uppercase;transition:color .2s}.collection-link:hover{color:var(--gold)}.collection-parure{grid-column:1/-1;display:grid;grid-template-columns:minmax(0,1.45fr) minmax(280px,.75fr);align-items:center;gap:clamp(28px,6vw,80px);margin-top:clamp(4px,1vw,16px)}.collection-parure .collection-image{aspect-ratio:1.55/1}.collection-parure .collection-copy{padding:20px 0}.statement{text-align:center;background:#eeeae2;padding:clamp(70px,9vw,112px) 22px}.statement h2{max-width:780px;margin:18px auto}.statement p{max-width:540px;color:var(--muted);margin:0 auto 28px}.button{display:inline-block;border:1px solid var(--gold);padding:13px 23px;font-size:10px;letter-spacing:.1em;text-transform:uppercase;transition:background .2s,color .2s}.button:hover{background:var(--gold);color:white}footer{padding:32px 0;border-top:1px solid var(--line)}.footer-row{display:flex;justify-content:space-between;align-items:center;gap:20px}.footer-brand{font:17px var(--serif);letter-spacing:.15em}.footer-meta{font-size:10px;color:var(--muted);text-align:center}.social{font-size:10px;letter-spacing:.12em}.copyright{text-align:center;margin:22px 0 0;font-size:9px;color:#99958c;letter-spacing:.08em}
-    @media(max-width:760px){.topbar{min-height:72px}.nav{gap:14px}.collection-grid{gap:38px 22px}.collection-parure{grid-template-columns:minmax(0,1.1fr) minmax(220px,.9fr);gap:26px}.collection-parure .collection-image{aspect-ratio:1.2/1}}
-    @media(max-width:600px){.wrap{width:calc(100% - 36px)}.topbar{min-height:66px}.brand{font-size:18px}.nav{display:none}.hero{padding:66px 12px 48px}.hero h1{font-size:clamp(43px,12vw,60px)}.hero p{font-size:14px}.collections{padding-bottom:72px}.collection-grid{grid-template-columns:1fr;gap:42px}.collection-image{aspect-ratio:4/3}.collection-copy{padding-top:15px}.collection h2{font-size:39px}.collection-parure{grid-column:auto;grid-template-columns:1fr;gap:0;margin-top:0}.collection-parure .collection-image{aspect-ratio:4/3}.collection-parure .collection-copy{padding-top:15px}.statement{padding:74px 18px}.statement h2{font-size:clamp(35px,9vw,46px)}.footer-row{flex-direction:column;text-align:center;gap:13px}.footer-meta{max-width:300px;line-height:1.8}.copyright{padding:0 16px;line-height:1.7}}
-    @media(max-width:360px){.wrap{width:calc(100% - 28px)}.collection-image,.collection-parure .collection-image{aspect-ratio:1/1}}
+    :root{--paper:#f8f6f1;--ink:#25241f;--muted:#77746d;--line:#dedbd3;--gold:#aa9062;--soft:#eeebe4;--serif:'Playfair Display',Georgia,serif;--sans:'DM Sans',Arial,sans-serif}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:28px}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.7 var(--sans);overflow-x:hidden}a{color:inherit;text-decoration:none}img{display:block;width:100%;height:100%;object-fit:cover}.wrap{width:min(1260px,calc(100% - clamp(36px,8vw,128px)));margin-inline:auto}.eyebrow{color:var(--muted);font-size:10px;letter-spacing:.2em;text-transform:uppercase}h1,h2,h3{font-family:var(--serif);font-weight:400;line-height:1.13;margin-top:0}h1{font-size:clamp(46px,6.6vw,78px);letter-spacing:-.035em;margin:15px 0 16px}h2{font-size:clamp(34px,4.3vw,56px)}h3{font-size:clamp(26px,3vw,36px);margin:0 0 6px}
+    .topbar{min-height:clamp(70px,7vw,88px);display:flex;align-items:center;justify-content:space-between;gap:24px;border-bottom:1px solid var(--line)}.brand{font:22px var(--serif);letter-spacing:.16em;white-space:nowrap}.nav{display:flex;gap:clamp(16px,3vw,38px);font-size:11px;letter-spacing:.08em}.nav a{transition:color .2s}.nav a:hover,.nav [aria-current="page"]{color:var(--gold)}
+    .hero{text-align:center;padding:clamp(70px,9vw,115px) 16px clamp(60px,7vw,88px)}.hero h1{margin:15px auto 14px}.hero p{max-width:590px;color:var(--muted);margin:0 auto}.hero-rule{width:45px;height:1px;background:var(--gold);margin:27px auto 0}
+    .gallery{padding-bottom:clamp(82px,10vw,130px)}.gallery-heading{display:flex;justify-content:space-between;align-items:end;gap:20px;border-bottom:1px solid var(--line);padding-bottom:14px;margin-bottom:26px}.gallery-heading h2{font-size:clamp(27px,3.4vw,40px);margin:0}.gallery-heading p{margin:0;color:var(--muted);font-size:10px;letter-spacing:.12em;text-transform:uppercase}.grid-three{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(18px,2.4vw,32px)}.card{min-width:0}.photo{display:block;overflow:hidden;background:#ebe7de;position:relative}.photo img{transition:transform .7s cubic-bezier(.2,.65,.3,1)}.card:hover .photo img,.story:hover .photo img{transform:scale(1.035)}.photo-tall{aspect-ratio:1.08/1}.photo-wide{aspect-ratio:1.55/1}.copy{padding:17px 2px 0}.kicker{font-size:9px;letter-spacing:.19em;text-transform:uppercase;color:var(--gold);margin:0 0 7px}.copy p{font-size:12px;color:var(--muted);margin:0;max-width:360px}.text-link{display:inline-block;margin-top:13px;padding-bottom:3px;border-bottom:1px solid var(--gold);font-size:9px;letter-spacing:.13em;text-transform:uppercase}.text-link:hover{color:var(--gold)}
+    .bespoke-row{margin-top:clamp(56px,8vw,100px);display:grid;grid-template-columns:minmax(0,1.5fr) minmax(270px,.8fr);gap:clamp(30px,5vw,70px);align-items:center}.bespoke-row .photo{aspect-ratio:1.58/1}.bespoke-row .copy{padding:0}.bespoke-row h2{font-size:clamp(35px,4vw,52px);margin:4px 0 12px}.bespoke-row .copy p{font-size:13px;max-width:400px}.gold-rule{height:1px;width:40px;background:var(--gold);margin:21px 0}
+    .stories{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(22px,3vw,40px);margin-top:clamp(64px,8vw,104px)}.stories .photo{aspect-ratio:1.48/1}.stories .copy{padding-top:18px}
+    .consult{position:relative;isolation:isolate;overflow:hidden;background:#eae6de;text-align:center;padding:clamp(74px,10vw,122px) 22px;margin-bottom:clamp(70px,9vw,110px)}.consult:before,.consult:after{content:"";position:absolute;z-index:-1;width:min(32vw,390px);height:150%;top:-20%;opacity:.32;background-image:url('assets/design-process.webp');background-size:cover;background-position:center;mix-blend-mode:multiply}.consult:before{left:-10%;mask-image:linear-gradient(90deg,#000,transparent)}.consult:after{right:-10%;transform:scaleX(-1);mask-image:linear-gradient(270deg,#000,transparent)}.consult h2{font-size:clamp(34px,5vw,58px);margin:14px auto 12px;max-width:760px}.consult p{max-width:520px;color:var(--muted);margin:0 auto 24px;font-size:13px}.button{display:inline-block;border:1px solid var(--gold);padding:12px 22px;font-size:9px;letter-spacing:.12em;text-transform:uppercase;transition:background .2s,color .2s}.button:hover{background:var(--gold);color:#fff}
+    footer{padding:30px 0 22px;border-top:1px solid var(--line)}.footer-row{display:flex;justify-content:space-between;align-items:center;gap:20px}.footer-brand{font:17px var(--serif);letter-spacing:.15em}.footer-meta{font-size:10px;color:var(--muted);text-align:center}.social{font-size:9px;letter-spacing:.12em}.copyright{text-align:center;margin:20px 0 0;font-size:9px;color:#99958c;letter-spacing:.08em}
+    @media(max-width:760px){.topbar{min-height:72px}.nav{gap:14px}.bespoke-row{grid-template-columns:minmax(0,1.15fr) minmax(220px,.85fr);gap:24px}.bespoke-row .photo{aspect-ratio:1.15/1}.consult:before,.consult:after{width:25vw}}
+    @media(max-width:600px){.wrap{width:calc(100% - 36px)}.topbar{min-height:66px}.brand{font-size:18px}.topbar>.eyebrow{font-size:8px;letter-spacing:.12em}.nav{display:none}.hero{padding:65px 10px 50px}.hero h1{font-size:clamp(43px,11vw,60px)}.hero p{font-size:13px}.gallery-heading{display:block;margin-bottom:20px}.gallery-heading p{margin-top:7px;font-size:9px}.grid-three{grid-template-columns:1fr;gap:36px}.photo-tall{aspect-ratio:1.18/1}.copy{padding-top:13px}.copy p{font-size:12px}.bespoke-row{grid-template-columns:1fr;gap:0;margin-top:58px}.bespoke-row .photo{aspect-ratio:1.2/1}.bespoke-row .copy{padding-top:17px}.bespoke-row h2{font-size:40px}.stories{grid-template-columns:1fr;gap:36px;margin-top:58px}.stories .photo{aspect-ratio:1.22/1}.consult{padding:72px 21px;margin-bottom:68px}.consult:before,.consult:after{width:38vw;opacity:.17}.consult h2{font-size:clamp(36px,9vw,47px)}.consult p{font-size:12px}.footer-row{flex-direction:column;text-align:center;gap:13px}.footer-meta{max-width:300px;line-height:1.8}.copyright{padding:0 16px;line-height:1.7}}
+    @media(max-width:360px){.wrap{width:calc(100% - 28px)}.gallery-heading h2{font-size:28px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
   </style>
 </head>
 <body>
   <header class="wrap topbar">
     <a class="brand" href="index.html" aria-label="Chant Pierre home">CHANT PIERRE</a>
-    <nav class="nav" aria-label="Main navigation">
-      <a href="index.html#home">Home</a><a href="showcase.html" aria-current="page">Collections</a><a href="index.html#bespoke">Bespoke</a><a href="index.html#story">Our Story</a>
-    </nav>
+    <nav class="nav" aria-label="Main navigation"><a href="index.html#home">Home</a><a href="showcase.html" aria-current="page">Collections</a><a href="index.html#bespoke">Bespoke</a><a href="index.html#story">Our Story</a></nav>
     <span class="eyebrow">Melaka · Est. 1997</span>
   </header>
-
   <main>
-    <section class="hero">
-      <span class="eyebrow">The Chant Pierre Collections</span>
-      <h1>A study in enduring beauty.</h1>
-      <p>Three expressions of personal design. Discover the details that speak to you, then make them your own through a conversation with our team.</p>
-      <div class="hero-rule"></div>
-    </section>
-
-    <section class="wrap collections" aria-label="Chant Pierre design collections">
-      <div class="collection-grid">
-        <article class="collection">
-          <a class="collection-image" href="forme.html" aria-label="Explore the Forme collection"><img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=1400&q=85" alt="Round brilliant solitaire ring with a polished gold band" loading="lazy"></a>
-          <div class="collection-copy">
-            <div class="collection-name">Collection I</div><h2>Forme</h2><div class="collection-subtitle">Solitaire, shaped in gold</div>
-            <p>Pure silhouettes. Distinctive metalwork. A single diamond in focus.</p>
-            <a class="collection-link" href="forme.html">Explore the collection&nbsp; →</a>
-          </div>
-        </article>
-
-        <article class="collection">
-          <a class="collection-image" href="index.html#consultation" aria-label="Discuss a Lumière solitaire design"><img src="https://images.unsplash.com/photo-1603561596112-0a132b757442?auto=format&fit=crop&w=1400&q=85" alt="Solitaire ring with fine pavé diamonds along the shoulders" loading="lazy"></a>
-          <div class="collection-copy">
-            <div class="collection-name">Collection II</div><h2>Lumière</h2><div class="collection-subtitle">Solitaire, traced with light</div>
-            <p>Fine pavé and microset details bring a quiet radiance to the solitaire.</p>
-            <a class="collection-link" href="index.html#consultation">Explore the collection&nbsp; →</a>
-          </div>
-        </article>
-
-        <article class="collection collection-parure">
-          <a class="collection-image" href="index.html#consultation" aria-label="Discuss a Parure jewellery pairing"><img src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=1800&q=85" alt="Coordinated diamond necklace and earrings arranged together" loading="lazy"></a>
-          <div class="collection-copy">
-            <div class="collection-name">Collection III</div><h2>Parure</h2><div class="collection-subtitle">Jewellery, composed together</div>
-            <p>Thoughtful earring and necklace pairings for a look that feels entirely your own.</p>
-            <a class="collection-link" href="index.html#consultation">Explore the collection&nbsp; →</a>
-          </div>
-        </article>
+    <section class="hero"><span class="eyebrow">A gallery of ideas</span><h1>Designs with a story to tell.</h1><p>Explore a considered collection of forms, settings, and pairings. Each begins with an idea and becomes personal through the details you choose.</p><div class="hero-rule"></div></section>
+    <section class="wrap gallery" aria-label="Chant Pierre design gallery">
+      <div class="gallery-heading"><h2>The design gallery</h2><p>Selected designs · made to be made your own</p></div>
+      <div class="grid-three">
+        <article class="card"><a class="photo photo-tall" href="forme.html" aria-label="Discover Forme"><img src="assets/hero-ring.webp" alt="A solitaire diamond ring with sculpted gold shoulders" loading="lazy"></a><div class="copy"><div class="kicker">Forme · Solitaire in gold</div><h3>The Solitaire</h3><p>A single diamond, held in a setting shaped by the character of its gold.</p><a class="text-link" href="forme.html">Explore Forme&nbsp; →</a></div></article>
+        <article class="card"><a class="photo photo-tall" href="index.html#consultation" aria-label="Discuss a Lumière design"><img src="assets/hero-ring.webp" alt="Close view of a diamond solitaire ring, illustrating Lumière setting details" loading="lazy" style="object-position:72% center;filter:brightness(.94) saturate(.8)"></a><div class="copy"><div class="kicker">Lumière · Pavé and microset</div><h3>A Trace of Light</h3><p>Fine-set diamonds bring a quiet brilliance to the solitaire silhouette.</p><a class="text-link" href="index.html#consultation">Discuss Lumière&nbsp; →</a></div></article>
+        <article class="card"><a class="photo photo-tall" href="index.html#consultation" aria-label="Discuss a Parure pairing"><img src="assets/together.webp" alt="An intimate moment celebrating meaningful jewellery" loading="lazy"></a><div class="copy"><div class="kicker">Parure · Jewellery pairings</div><h3>Pieces in Harmony</h3><p>Necklaces and earrings, thoughtfully composed to be worn together.</p><a class="text-link" href="index.html#consultation">Discover Parure&nbsp; →</a></div></article>
+      </div>
+      <div class="bespoke-row">
+        <article class="story"><a class="photo" href="index.html#consultation" aria-label="Begin a bespoke design"><img src="assets/design-process.webp" alt="Jewellery design sketches and a jeweller's working notes" loading="lazy"></a></article>
+        <div class="copy"><div class="kicker">A considered collaboration</div><h2>Make it your own.</h2><p>Choose a stone, refine a setting, or begin with a feeling. We’ll work with you to bring the details together in a piece that carries your meaning.</p><div class="gold-rule"></div><a class="text-link" href="index.html#consultation">Begin a design conversation&nbsp; →</a></div>
+      </div>
+      <div class="stories">
+        <article class="story"><a class="photo" href="index.html#consultation" aria-label="Talk about wedding bands"><img src="assets/hero-ring.webp" alt="Gold ring with a sculptural profile and brilliant diamond" loading="lazy" style="object-position:30% center"></a><div class="copy"><div class="kicker">Made for a shared promise</div><h3>Wedding Bands</h3><p>Quietly distinctive forms made to sit naturally beside the ring you love.</p><a class="text-link" href="index.html#consultation">Explore the possibilities&nbsp; →</a></div></article>
+        <article class="story"><a class="photo" href="index.html#story" aria-label="Learn about our craftsmanship"><img src="assets/craftsmanship.webp" alt="Careful hands at work on a fine jewellery piece" loading="lazy"></a><div class="copy"><div class="kicker">The hands behind the work</div><h3>Made with Intention</h3><p>Every curve and setting is considered, then finished with patience and care.</p><a class="text-link" href="index.html#story">Meet our approach&nbsp; →</a></div></article>
       </div>
     </section>
-
-    <section class="statement">
-      <span class="eyebrow">A personal design journey</span>
-      <h2>Find the details that feel like you.</h2>
-      <p>Bring a favourite detail, a stone, or simply an idea. We’ll help you explore the possibilities and shape a design around your story.</p>
-      <a class="button" href="index.html#consultation">Begin a design conversation</a>
-    </section>
+    <section class="wrap consult"><span class="eyebrow">A personal design journey</span><h2>See something that feels like you?</h2><p>Tell us what caught your eye. We’d be glad to talk through the details, answer your questions, and explore what could be made for you.</p><a class="button" href="index.html#consultation">Arrange a consultation</a></section>
   </main>
-
-  <footer>
-    <div class="wrap footer-row"><a class="footer-brand" href="index.html">CHANT PIERRE</a><div class="footer-meta">Melaka Mall, Melaka · Open daily except Wednesday · 11:00 am – 7:30 pm</div><a class="social" href="https://www.instagram.com/">INSTAGRAM&nbsp; ↗</a></div>
-    <p class="copyright">© 2026 CHANT PIERRE. MADE WITH MEANING.</p>
-  </footer>
+  <footer><div class="wrap footer-row"><a class="footer-brand" href="index.html">CHANT PIERRE</a><div class="footer-meta">Melaka Mall, Melaka · Open daily except Wednesday · 11:00 am – 7:30 pm</div><a class="social" href="https://www.instagram.com/">INSTAGRAM&nbsp; ↗</a></div><p class="copyright">© 2026 CHANT PIERRE. MADE WITH MEANING.</p></footer>
 </body>
 </html>
